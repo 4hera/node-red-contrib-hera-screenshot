@@ -1,0 +1,21 @@
+{
+  "name": "node-red-contrib-hera-screenshot",
+  "version": "1.0.0",
+  "description": "A Node-RED node that takes a screenshot of the host and outputs it as a buffer.",
+  "dependencies": {
+    "screenshot-desktop": "1.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4hera/node-red-contrib-hera-screenshot.git"
+  },
+  "keywords": [
+    "node-red",
+    "hera-screenshot"
+  ],
+  "node-red": {
+    "nodes": {
+      "hera-screenshot": "screenshot/screenshot.js"
+    }
+  }
+}
